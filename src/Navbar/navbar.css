@@ -1,0 +1,17 @@
+.navbar-container{
+    padding: 0 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-container .logo img{
+    vertical-align: middle;
+}
+.navbar-container .logo{
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: #ff344c;
+}
+.navbar-container .second > *{
+margin-left: .5rem;
+}

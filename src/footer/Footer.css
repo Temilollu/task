@@ -1,0 +1,25 @@
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
+  padding: 1rem;
+}
+.footer-container span {
+  text-transform: capitalize;
+  color: #ff344c;
+  cursor: pointer;
+}
+.footer-container img {
+  cursor: pointer;
+}
+
+.footer-container .active {
+  opacity: 1;
+}
+.footer-container .disabled {
+  opacity: 0.4;
+}
